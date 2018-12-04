@@ -4,6 +4,16 @@ JBR Genome Browser
 
 Source code coming soon...
 
+Documentation
+-------------
+
+Coming soon...
+
+Issues Tracker
+--------------
+
+Use this [Issues Tracker](https://github.com/JetBrains-Research/jbr/issues) to suggest new features or report bugs.
+
 Authors
 -------
 JetBrains Research BioLabs [homepage](https://research.jetbrains.org/groups/biolabs)
