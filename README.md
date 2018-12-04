@@ -7,7 +7,7 @@ Source code coming soon...
 Documentation
 -------------
 
-Coming soon...
+See [JBR Wiki](https://github.com/JetBrains-Research/jbr/wiki) page.
 
 Issues Tracker
 --------------
