@@ -1,0 +1,36 @@
+JBR Genome Browser changelog
+============================
+
+Here you can see the full list of changes between each release.
+
+Version 1.0.beta 2
+------------------
+
+Released on March 22, 2019
+
+- Support all the chromosomes including contigs, random and alternative chromosomes
+- Support screenshot in Scalable Vector Graphics format
+- Support big fonts
+- Built-in web server rendering improved
+- BED files tuning capabilities by score field
+- Improved about information in tabular format
+- Various bugfixes
+
+
+Version 1.0.beta 1
+------------------
+
+Initial release, released on Nov 22, 2018
+
+- Integrated peaks annotating
+- On-the-fly peak calling using SPAN models
+- Support for observing multiple genome locations simultaneously
+- Classical genome browser features to view various genome data formats
+- Supported data file formats: BED (including MACS2, SICER peaks), WIG, TDF, BigBed, bigWig
+- Supported sessions formats: JBR *.yaml, IGV *.xml session files
+- Remote URL bigWig/BigBed/BED files support
+- BED track peaks statistics
+- BigWig signal statistics track for multiple locations
+- Optimized for working with large sessions
+- Built-in web server for session sharing
+
