@@ -6,7 +6,7 @@ Here you can see the full list of changes between each release.
 Version 1.0.beta 2
 ------------------
 
-Released on March 22, 2019
+Released on March 26, 2019
 
 - Support all the chromosomes including contigs, random and alternative chromosomes
 - Support screenshot in Scalable Vector Graphics format
@@ -14,7 +14,10 @@ Released on March 22, 2019
 - Built-in web server rendering improved
 - BED files tuning capabilities by score field
 - Improved about information in tabular format
-- Various bugfixes
+- Fix startup on Linux
+- Fixed antialiasing issues on Linux, Windows
+- UI improvements
+- Various other bugfixes
 
 
 Version 1.0.beta 1
