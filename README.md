@@ -6,6 +6,12 @@ About
 -----
 Detailed information is available on JetBrains Research Biolabs JBR [page](https://research.jetbrains.org/groups/biolabs/tools/jbr-genome-browser).
 
+Latest release
+--------------
+Version 1.0.beta.5189 release on Apr 22, 2020 
+
+https://github.com/JetBrains-Research/jbr/releases/tag/1.0.beta.5189
+
 Documentation
 -------------
 
