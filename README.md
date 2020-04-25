@@ -8,9 +8,7 @@ Detailed information is available on JetBrains Research Biolabs JBR [page](https
 
 Latest release
 --------------
-Version 1.0.beta.5189 release on Apr 22, 2020 
-
-https://github.com/JetBrains-Research/jbr/releases/tag/1.0.beta.5189
+Version [1.0.beta.5189](https://github.com/JetBrains-Research/jbr/releases/tag/1.0.beta.5189) release on Apr 22, 2020 
 
 Documentation
 -------------
