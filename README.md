@@ -1,6 +1,7 @@
 JBR Genome Browser
 ==================
-**JBR Genome Browser** is a general purpose genome browser with integrated [visual peak calling](https://artyomovlab.wustl.edu/aging/tools.html) support.
+**JBR Genome Browser** is a fast and reliable genome browser with manual region selection and annotation functionality that is integrated with [SPAN](https://github.com/JetBrains-Research/span) peak caller.\
+Part of integrated [peak calling](https://research.jetbrains.org/groups/biolabs/projects?project_id=71) solution.
 
 Latest release
 --------------
