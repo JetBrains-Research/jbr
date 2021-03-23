@@ -5,7 +5,7 @@ Part of integrated [peak calling](https://research.jetbrains.org/groups/biolabs/
 
 Latest release
 --------------
-Version [1.0.beta.5189](https://github.com/JetBrains-Research/jbr/releases/tag/1.0.beta.5189) release on Apr 22, 2020 
+Version [1.0.beta.5316](https://github.com/JetBrains-Research/jbr/releases/tag/1.0.beta.5316) released on March 23, 2021 
 
 About
 -----
