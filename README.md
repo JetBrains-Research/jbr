@@ -1,11 +1,11 @@
 JBR Genome Browser
 ==================
 **JBR Genome Browser** is a fast and reliable genome browser with manual region selection and annotation functionality that is integrated with [SPAN](https://github.com/JetBrains-Research/span) peak caller.\
-Part of integrated [peak calling](https://research.jetbrains.org/groups/biolabs/projects?project_id=71) solution.
+Part of integrated [peak calling](http://artyomovlab.wustl.edu/aging/tools.html) solution.
 
 Latest release
 --------------
-Version [1.0.beta.5318](https://github.com/JetBrains-Research/jbr/releases/tag/1.0.beta.5318) released on March 24, 2021 
+Version [1.0.beta.5320](https://github.com/JetBrains-Research/jbr/releases/tag/1.0.beta.5320) released on March 24, 2021 
 
 About
 -----
