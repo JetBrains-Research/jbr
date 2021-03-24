@@ -1,7 +1,8 @@
+# On Dockerhub, Ubuntu 20.04 LTS image is now the new Minimal Ubuntu image.
+FROM ubuntu:20.04
+
 LABEL author = "Oleg Shpynov"
 LABEL email = "os@jetbrains.com"
-
-FROM ubuntu:20.04
 
 RUN apt-get update \
   && apt-get install -y wget \
