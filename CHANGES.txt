@@ -3,6 +3,43 @@ JBR Genome Browser changelog
 
 Here you can see the full list of changes between each release.
 
+Version 1.0.beta.5320
+---------------------
+
+Released on March 24, 2021
+
+* Custom genome configuration editor
+* Import and export of IGV sessions
+* Import and export of UCSC sessions
+* Improved searching and loading tracks from ENCODE portal
+* Improved server mode memory consumption
+* New version of bundled Amazon Corretto JRE
+* Custom log file location support
+* Docker image for easily set-up a server
+* Bugfixes
+
+Version 1.0.beta.5198
+---------------------
+
+Released on Apr 22, 2020
+
+* Latest SPAN 0.12.0.5096 support
+* Support for searching and loading tracks from ENCODE portal
+* Server mode visualizing single or multiple sessions in web browser
+* Full support of High DPI displays
+* Fixes
+
+Version 1.0.beta.4882
+---------------------
+
+Released on May 17, 2019
+
+* Latest SPAN 0.11.0.4882 support
+* Now files without extension or with any extension could be opened as BED files (e.g. SICER files w/o extension)
+* UI fixes (Genes track view blinking, Cytobands legend alignment, ..)
+* Fixed executable flag for *.sh files in Linux distribution
+* Support for any BED3+ files, BED file auto-format feature improved
+
 Version 1.0.beta 2
 ------------------
 
