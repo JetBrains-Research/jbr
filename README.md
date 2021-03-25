@@ -28,8 +28,7 @@ Features
 * Optimized for large sessions
 * Support for screenshots in PNG or SVG formats
 * Support for searching and loading tracks from ENCODE portal
-* Easily set-up a server using publicly available Docker image.<br>
-  See an example at https://artyomovlab.wustl.edu/jbr/
+* Easily set-up a server using publicly available Docker image
 * Full support of High DPI displays
 * **New** Genomes configuration editor
 
