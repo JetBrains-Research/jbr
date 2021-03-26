@@ -44,7 +44,7 @@ Version [1.0.beta.5320](https://github.com/JetBrains-Research/jbr/releases/tag/1
 | [jbr-1.0.beta.5320.zip](https://download.jetbrains.com/biolabs/jbr_browser/win/jbr-1.0.beta.5320.zip) | Windows archive (includes bundled 64-bit Java Runtime) |
 | [jbr-1.0.beta.5320.dmg](https://download.jetbrains.com/biolabs/jbr_browser/mac/jbr-1.0.beta.5320.dmg)      | Mac installer (includes bundled 64-bit Java Runtime)   |
 | [jbr-1.0.beta.5320.tar.gz](https://download.jetbrains.com/biolabs/jbr_browser/linux/jbr-1.0.beta.5320.tar.gz) | Linux archive (includes bundled 64-bit Java Runtime)   |
-| [jbr-1.0.beta.jar](https://download.jetbrains.com/biolabs/jbr_browser/jar/jbr-1.0.beta.5320.jar) | Java archive file |
+| [jbr-1.0.beta.5320.jar](https://download.jetbrains.com/biolabs/jbr_browser/jar/jbr-1.0.beta.5320.jar) | Java archive file |
 
 Installation
 ------------
