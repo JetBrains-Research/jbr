@@ -13,6 +13,10 @@ It can serve not only as an efficient semi-supervised peak calling engine but al
 with enhanced functionality for viewing large files, viewing multiple locations simultaneously, and gathering track
 statistics.
 
+**Open Access Paper:** https://doi.org/10.1093/bioinformatics/btab376
+
+**Citation:** Shpynov O, Dievskii A, Chernyatchik R, Tsurinov P, Artyomov MN. Semi-supervised peak calling with SPAN and JBR Genome Browser. Bioinformatics. 2021 May 21.
+
 Features
 --------
 
