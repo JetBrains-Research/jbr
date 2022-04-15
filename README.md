@@ -51,7 +51,7 @@ Download a suitable build for your OS from the Downloads section.
   Launch `jbr.exe`.
 
 * MacOS<br>
-  Download the `JBR XXX.dmg` macOS Disk Image file<br>
+  Download the `jbr-XXX.dmg` macOS Disk Image file<br>
   Mount it as another disk in your system<br>
   Copy JBR Genome Browser to your Applications folder<br>
   If you want to open multiple JBR instances, launch instance with the command:<br>
