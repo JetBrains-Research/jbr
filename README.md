@@ -40,34 +40,26 @@ Note: JBR Genome Browser supports models produced by the SPAN version 0.12+.
 
 Downloads
 ---------
-
-Version [1.0.beta.5320](https://github.com/JetBrains-Research/jbr/releases/tag/1.0.beta.5320) released on March 24, 2021
-
-| Download | Description |
-| -------- | ----------- |
-| [jbr-1.0.beta.5320.zip](https://download.jetbrains.com/biolabs/jbr_browser/win/jbr-1.0.beta.5320.zip) | Windows archive (includes bundled 64-bit Java Runtime) |
-| [jbr-1.0.beta.5320.dmg](https://download.jetbrains.com/biolabs/jbr_browser/mac/jbr-1.0.beta.5320.dmg)      | Mac installer (includes bundled 64-bit Java Runtime)   |
-| [jbr-1.0.beta.5320.tar.gz](https://download.jetbrains.com/biolabs/jbr_browser/linux/jbr-1.0.beta.5320.tar.gz) | Linux archive (includes bundled 64-bit Java Runtime)   |
-| [jbr-1.0.beta.5320.jar](https://download.jetbrains.com/biolabs/jbr_browser/jar/jbr-1.0.beta.5320.jar) | Java archive file |
+See [releases](https://github.com/JetBrains-Research/jbr/releases) section for actual information.
 
 Installation
 ------------
 Download a suitable build for your OS from the Downloads section.
 
 * Windows<br>
-  Unpack the browser `1.0.beta.5320.zip` file.<br>
+  Unpack the browser `jbr-1.0.XXX.zip` file.<br>
   Launch `jbr.exe`.
 
 * MacOS<br>
-  Download the `1.0.beta.5320.dmg` macOS Disk Image file<br>
+  Download the `JBR XXX.dmg` macOS Disk Image file<br>
   Mount it as another disk in your system<br>
   Copy JBR Genome Browser to your Applications folder<br>
   If you want to open multiple JBR instances, launch instance with the command:<br>
-  `open -n "/Applications/JBR 1.0.app"`
+  `open -n "/Applications/JBR XXX.app"`
 
 * Linux:<br>
-  Unpack the browser `1.0.beta.5320.tar.gz` file using the following command:<br>
-  `tar -xzf 1.0.beta.5320.tar.gz`<br>
+  Unpack the browser `jbr-XXX.tar.gz` file using the following command:<br>
+  `tar -xzf jbr-XXX.tar.gz`<br>
   Launch `jbr.sh` from the `bin` subfolder.
 
 Web server mode
