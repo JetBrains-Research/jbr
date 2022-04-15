@@ -47,7 +47,7 @@ Installation
 Download a suitable build for your OS from the Downloads section.
 
 * Windows<br>
-  Unpack the browser `jbr-1.0.XXX.zip` file.<br>
+  Unpack the browser `jbr-XXX.zip` file.<br>
   Launch `jbr.exe`.
 
 * MacOS<br>
@@ -61,6 +61,7 @@ Download a suitable build for your OS from the Downloads section.
   Unpack the browser `jbr-XXX.tar.gz` file using the following command:<br>
   `tar -xzf jbr-XXX.tar.gz`<br>
   Launch `jbr.sh` from the `bin` subfolder.
+
 
 Web server mode
 ---------------
