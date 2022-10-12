@@ -3,6 +3,22 @@ JBR Genome Browser changelog
 
 Here you can see the full list of changes between each release.
 
+Version 1.0.5573
+---------------------
+
+Released on October 12, 2022
+
+* Group scale mode for selected tracks
+* Headless screenshots done from command line interface
+* Enhanced support for large BED file with internal indexing
+* Fixed web-based browser navigation when position is provided in URL
+* Check for updates on startup
+* Simplified web UI - removed logs view
+* Support the latest SPAN release
+* New version of bundled Amazon Corretto JRE
+* Updated Docker image
+* Bugfixes
+
 Version 1.0.beta.5320
 ---------------------
 

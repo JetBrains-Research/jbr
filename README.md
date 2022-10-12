@@ -20,23 +20,25 @@ statistics.
 Features
 --------
 
-* On-the-fly peak calling using [SPAN](https://github.com/JetBrains-Research/span) models
-* Integrated annotation of peaks for semi-supervised peak calling
-* Support for viewing multiple genomic locations simultaneously
 * Classical genome browser features to visualize various genome data formats
 * Supported data file formats: BED (including MACS2, SICER peaks), BigWig, Wig, BigBed, Tdf
-* **New** Supported session formats: JBR *.yaml, IGV *.xml, UCSC *.txt session files
+* Supported session formats: JBR *.yaml, IGV *.xml, UCSC *.txt session files
 * Remote URL BigWig/BigBed/BED files support
+* **New** Group scale mode for selected tracks
+* Integrated annotation of peaks and on-the-fly semi-supervised peak calling with [SPAN](https://github.com/JetBrains-Research/span)
+* **New** Enhanced SPAN models visualization
+* Support for viewing multiple genomic locations simultaneously
+* Optimized for large sessions
 * Show track statistics
 * BED tracks overlap analysis
-* Optimized for large sessions
 * Support for screenshots in PNG or SVG formats
+* **New** Headless screenshots done from command line interface
 * Support for searching and loading tracks from ENCODE portal
 * Easily set-up a server using publicly available Docker image
 * Full support of High DPI displays
-* **New** Genomes configuration editor
+* Genomes configuration editor
 
-Note: JBR Genome Browser supports models produced by the SPAN version 0.12+.
+Note: JBR Genome Browser supports models produced by the SPAN version 1.0+.
 
 Downloads
 ---------
