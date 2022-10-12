@@ -72,6 +72,11 @@ be particularly useful when working with private datasets, which cannot be expor
 should be accessible only within local network.<br>
 Example of web server mode can be seen at: [https://artyomovlab.wustl.edu/jbr/](https://artyomovlab.wustl.edu/jbr/).
 
+Build Docker image or use uploaded to docker.io.
+```
+   docker build . -t biolabs/jbr --platform=amd64
+```
+
 The user creates a number of preconfigured JRB sessions, place them in a separate `<sessions_folder>` on the local
 machine, and easily set up a server using publicly available Docker image `biolabs/jbr` with the command:
 
