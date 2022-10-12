@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y wget openjdk-11-jre \
     && apt-get autoremove -y \
     && rm -rf /var/lib/apt/lists/*
 
-RUN wget https://download.jetbrains.com/biolabs/jbr_browser/jar/jbr-1.0.5573.jar  --quiet -O jbr.jar
+RUN wget https://download.jetbrains.com/biolabs/jbr_browser/jar/jbr-1.0.5574.jar  --quiet -O jbr.jar
 
 # JBR sessions should be located here
 RUN set -e && mkdir /jbr_session

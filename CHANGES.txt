@@ -3,7 +3,7 @@ JBR Genome Browser changelog
 
 Here you can see the full list of changes between each release.
 
-Version 1.0.5573
+Version 1.0.5574
 ---------------------
 
 Released on October 12, 2022
