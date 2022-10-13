@@ -1,3 +1,5 @@
+[![JetBrains Research](https://jb.gg/badges/research.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+
 JBR Genome Browser
 ==================
 
@@ -38,7 +40,7 @@ Features
 * Full support of High DPI displays
 * Genomes configuration editor
 
-Note: JBR Genome Browser supports models produced by the SPAN version 1.0+.
+Note: JBR Genome Browser supports models produced by the [SPAN](https://github.com/JetBrains-Research/span) version 1.0+.
 
 Downloads
 ---------
