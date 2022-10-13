@@ -23,4 +23,4 @@ VOLUME ["/jbr_logs"]
 EXPOSE 5000
 
 # JBR in server mode
-ENTRYPOINT java -Xmx8G -jar jbr.jar --server --port 5000 --sessions /jbr_sessions --logs /jbr_logs
+ENTRYPOINT java -jar jbr.jar --server --port 5000 --sessions /jbr_sessions --logs /jbr_logs
