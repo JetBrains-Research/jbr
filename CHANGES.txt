@@ -8,13 +8,15 @@ Version 1.0.5577
 
 Released on October 13, 2022
 
+* Significantly faster web browser
+* Enhanced large BED files rendering with advanced indexing
 * Group scale mode for selected tracks
 * Headless screenshots done from command line interface
-* Enhanced support for large BED file with internal indexing
+* Support the latest SPAN release
+* Advanced SPAN results visualization including underlying HMM model states
 * Fixed web-based browser navigation when position is provided in URL
 * Check for updates on startup
 * Simplified web UI - removed logs view
-* Support the latest SPAN release
 * New version of bundled Amazon Corretto JRE
 * Updated Docker image
 * Bugfixes

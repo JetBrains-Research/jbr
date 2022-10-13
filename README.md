@@ -46,6 +46,8 @@ Downloads
 ---------
 See [releases](https://github.com/JetBrains-Research/jbr/releases) section for actual information.
 
+See changelog for the latest version [here](https://raw.githubusercontent.com/JetBrains-Research/jbr/master/CHANGES.txt).
+
 Installation
 ------------
 Download a suitable build for your OS from the Downloads section.
