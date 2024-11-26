@@ -1,7 +1,25 @@
-JBR Genome Browser changelog
+JBR Genome Browser Changelog
 ============================
 
 Here you can see the full list of changes between each release.
+
+
+Version 2.0.6600
+----------------
+
+Released on November 26, 2024
+
+* BAM/SAM/CRAM files support
+* Enhanced Bisulfite-Sequence DNA methylation BAM files visualization
+* Enhanced actions history support including tracks modifications, navigations, etc.
+* Select tracks by name or wildcard
+* Detailed information of track data on mouse cursor hover
+* Multiple panels support
+* GTF file support
+* SPAN 2.0 model support
+* Enhanced memory management and optimizations due to Amazon-Corrette JDK 21 runtime
+* Apple-silicon aarch64 support (M1+ CPU)
+
 
 Version 1.0.5641
 ----------------
@@ -42,7 +60,7 @@ Released on March 24, 2021
 * Improved server mode memory consumption
 * New version of bundled Amazon Corretto JRE
 * Custom log file location support
-* Docker image for easily set-up a server
+* Docker image for easily setup a server
 * Bugfixes
 
 Version 1.0.beta.5198
@@ -100,4 +118,3 @@ Initial release, released on Nov 22, 2018
 - BigWig signal statistics track for multiple locations
 - Optimized for working with large sessions
 - Built-in web server for session sharing
-

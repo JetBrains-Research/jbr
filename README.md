@@ -4,7 +4,7 @@ JBR Genome Browser
 ==================
 
 **JBR Genome Browser** is a fast and scalable general purpose genome browser with support of a
-novel [semi-supervised approach](http://artyomovlab.wustl.edu/aging/tools.html) to peak calling.
+ [semi-supervised approach](http://artyomovlab.wustl.edu/aging/tools.html) to peak calling.
 
 It supports classic genome browser functionality and provide readily accessible integrated peak annotation and peak
 calling capabilities. JBR Genome Browser allows researchers to upload tracks of Chip-seq data and perform on-the-fly
@@ -24,23 +24,28 @@ Features
 
 * Classical genome browser features to visualize various genome data formats
 * Supported data file formats: BED (including MACS2, SICER peaks), BigWig, Wig, BigBed, Tdf
+* **New** Supported BAM/SAM/CRAM files including Bisulfite-Sequencing files visualization
+* **New** GTF files support
 * Supported session formats: JBR *.yaml, IGV *.xml, UCSC *.txt session files
 * Remote URL BigWig/BigBed/BED files support
-* **New** Group scale mode for selected tracks
+* **New** Select tracks by name or wildcard
+* **New** Multiple panels support
+* Group scale mode for selected tracks
 * Integrated annotation of peaks and on-the-fly semi-supervised peak calling with [SPAN](https://github.com/JetBrains-Research/span)
-* **New** Enhanced SPAN models visualization
+* Enhanced SPAN models visualization
 * Support for viewing multiple genomic locations simultaneously
 * Optimized for large sessions
-* Show track statistics
-* BED tracks overlap analysis
+* **New** Detailed track statistics and information on mouse hover
+* **New** BED tracks overlap / Jaccard analysis
 * Support for screenshots in PNG or SVG formats
-* **New** Headless screenshots done from command line interface
+* Headless screenshots done from command line interface
 * Support for searching and loading tracks from ENCODE portal
-* Easily set-up a server using publicly available Docker image
+* Easily set up a server using publicly available Docker image
 * Full support of High DPI displays
 * Genomes configuration editor
+* **New** Mouse mm39, Human hs1 (telomere-to-telomere), hs37-1kg, hs37d5 (decoy genomes)
 
-Note: JBR Genome Browser supports models produced by the [SPAN](https://github.com/JetBrains-Research/span) version 1.0+.
+Note: JBR Genome Browser supports models produced by the [SPAN](https://github.com/JetBrains-Research/span) version 2.0+.
 
 Downloads
 ---------
@@ -57,11 +62,18 @@ Download a suitable build for your OS from the Downloads section.
   Launch `jbr.exe`.
 
 * MacOS<br>
+  * For M1+ Mac computers:<br>
   Download the `jbr-XXX.dmg` macOS Disk Image file<br>
   Mount it as another disk in your system<br>
   Copy JBR Genome Browser to your Applications folder<br>
   If you want to open multiple JBR instances, launch instance with the command:<br>
-  `open -n "/Applications/JBR XXX.app"`
+  `open -n "/Applications/JBR.app"`<br>
+  
+  * For Intel-based Mac computers:<br>
+  Download the `jbr-XXX.jar` Java archive file, ensure that you have Java 17+ installed.<br>
+  Launch JBR Genome Browser with the command:<br>
+  `java -jar jbr-XXX.jar"`
+
 
 * Linux:<br>
   Unpack the browser `jbr-XXX.tar.gz` file using the following command:<br>
@@ -78,7 +90,7 @@ Example of web server mode can be seen at: [https://artyomovlab.wustl.edu/jbr/](
 
 Build Docker image or use uploaded to docker.io.
 ```
-   docker build . -t biolabs/jbr --platform=amd64
+   docker build . -t biolabs/jbr
 ```
 
 The user creates a number of preconfigured JRB sessions, place them in a separate `<sessions_folder>` on the local
