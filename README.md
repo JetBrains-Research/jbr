@@ -24,26 +24,27 @@ Features
 
 * Classical genome browser features to visualize various genome data formats
 * Supported data file formats: BED (including MACS2, SICER peaks), BigWig, Wig, BigBed, Tdf
-* **New** Supported BAM/SAM/CRAM files including Bisulfite-Sequencing files visualization
-* **New** GTF files support
+* Supported BAM/SAM/CRAM files including Bisulfite-Sequencing files visualization
+* GTF files support
 * Supported session formats: JBR *.yaml, IGV *.xml, UCSC *.txt session files
 * Remote URL BigWig/BigBed/BED files support
-* **New** Select tracks by name or wildcard
-* **New** Multiple panels support
+* Select tracks by name or wildcard
+* Multiple panels support
 * Group scale mode for selected tracks
 * Integrated annotation of peaks and on-the-fly semi-supervised peak calling with [SPAN](https://github.com/JetBrains-Research/span)
 * Enhanced SPAN models visualization
 * Support for viewing multiple genomic locations simultaneously
 * Optimized for large sessions
-* **New** Detailed track statistics and information on mouse hover
-* **New** BED tracks overlap / Jaccard analysis
+* Detailed track statistics and information on mouse hover
+* BED tracks overlap / Jaccard analysis
 * Support for screenshots in PNG or SVG formats
 * Headless screenshots done from command line interface
 * Support for searching and loading tracks from ENCODE portal
 * Easily set up a server using publicly available Docker image
 * Full support of High DPI displays
 * Genomes configuration editor
-* **New** Mouse mm39, Human hs1 (telomere-to-telomere), hs37-1kg, hs37d5 (decoy genomes)
+* Mouse mm39, Human hs1 (telomere-to-telomere), hs37-1kg, hs37d5 (decoy genomes)
+* **New** SPAN peak calling with BAM files rigth from the graphical user interface
 
 Note: JBR Genome Browser supports models produced by the [SPAN](https://github.com/JetBrains-Research/span) version 2.0+.
 
