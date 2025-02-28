@@ -1,20 +1,15 @@
-# On Dockerhub, Ubuntu 20.04 LTS image is now the new Minimal Ubuntu image.
-FROM ubuntu:20.04
+FROM amazoncorretto:21-alpine
 
-LABEL author = "Oleg Shpynov"
-LABEL email = "os@jetbrains.com"
+LABEL author="Oleg Shpynov"
+LABEL email="os@jetbrains.com"
 
-# Install required packages and cleanup
-RUN apt-get update && apt-get install -y wget openjdk-11-jre \
-    && apt-get clean \
-    && apt-get autoremove -y \
-    && rm -rf /var/lib/apt/lists/*
+RUN apk --no-cache add curl
 
-RUN wget https://download.jetbrains.com/biolabs/jbr_browser/jar/jbr-1.0.5541.jar  --quiet -O jbr.jar
+RUN curl -o jbr.jar -L https://download.jetbrains.com/biolabs/jbr_browser/jar/jbr-2.0.6632.jar
 
 # JBR sessions should be located here
-RUN set -e && mkdir /jbr_session
-VOLUME ["/jbr_session"]
+RUN set -e && mkdir /jbr_sessions
+VOLUME ["/jbr_sessions"]
 
 # JBR log folder
 RUN set -e && mkdir -p /jbr_logs
