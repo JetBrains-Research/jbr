@@ -5,7 +5,7 @@ LABEL email="os@jetbrains.com"
 
 RUN apk --no-cache add curl
 
-RUN curl -o jbr.jar -L https://download.jetbrains.com/biolabs/jbr_browser/jar/jbr-2.0.6632.jar
+RUN curl -o jbr.jar -L https://download.jetbrains.com/biolabs/jbr_browser/jar/jbr-2.0.6642.jar
 
 # JBR sessions should be located here
 RUN set -e && mkdir /jbr_sessions
