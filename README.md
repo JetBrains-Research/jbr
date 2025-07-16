@@ -91,14 +91,14 @@ Example of web server mode can be seen at: [https://artyomovlab.wustl.edu/jbr/](
 
 Build Docker image or use uploaded to docker.io.
 ```
-   docker build . -t biolabs/jbr
+   docker build . -t biolabs/jbr --platform linux/amd64  
 ```
 
 The user creates a number of preconfigured JRB sessions, place them in a separate `<sessions_folder>` on the local
 machine, and easily set up a server using publicly available Docker image `biolabs/jbr` with the command:
 
 ```
-  docker run --publish=5000:5000 --volume=<sessions_folder>:/jbr_sessions --volume=<logs_folder>:/jbr_logs  -d -t biolabs/jbr
+  docker run --platform linux/amd64 --publish=5000:5000 --volume=<sessions_folder>:/jbr_sessions --volume=<logs_folder>:/jbr_logs  -d -t biolabs/jbr
 ```
 
 Documentation
