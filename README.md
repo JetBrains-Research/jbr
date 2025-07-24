@@ -8,7 +8,7 @@ JBR Genome Browser
 
 It supports classic genome browser functionality and provide readily accessible integrated peak annotation and peak
 calling capabilities. JBR Genome Browser allows researchers to upload tracks of Chip-seq data and perform on-the-fly
-annotation and peak calling with [SPAN](https://github.com/JetBrains-Research/span) algorithm for a given annotation,
+annotation and peak calling with [Omnipeak](https://github.com/JetBrains-Research/omnipeak) (Previously [SPAN](https://github.com/JetBrains-Research/span)) algorithm for a given annotation,
 with the results of peak calling immediately visualized as BED files in the same session.
 
 It can serve not only as an efficient semi-supervised peak calling engine but also as a next-generation genome browser
@@ -31,8 +31,8 @@ Features
 * Select tracks by name or wildcard
 * Multiple panels support
 * Group scale mode for selected tracks
-* Integrated annotation of peaks and on-the-fly semi-supervised peak calling with [SPAN](https://github.com/JetBrains-Research/span)
-* Enhanced SPAN models visualization
+* Integrated annotation of peaks and on-the-fly semi-supervised peak calling
+* Enhanced Omnipeak | SPAN models visualization
 * Support for viewing multiple genomic locations simultaneously
 * Optimized for large sessions
 * Detailed track statistics and information on mouse hover
@@ -44,7 +44,7 @@ Features
 * Full support of High DPI displays
 * Genomes configuration editor
 * Mouse mm39, Human hs1 (telomere-to-telomere), hs37-1kg, hs37d5 (decoy genomes)
-* **New** SPAN peak calling with BAM files rigth from the graphical user interface
+* Peak calling with BAM files rigth from the graphical user interface
 
 Note: JBR Genome Browser supports models produced by the [SPAN](https://github.com/JetBrains-Research/span) version 2.0+.
 
