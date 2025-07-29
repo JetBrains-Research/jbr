@@ -3,6 +3,21 @@ JBR Genome Browser Changelog
 
 Here you can see the full list of changes between each release.
 
+Version 2.0.6694
+----------------
+
+Released on July 29th, 2025
+
+* Support peak calling using BigWig files
+* Bugfixes
+
+Version 2.0.6685
+----------------
+
+Released on July 24th, 2025
+
+* Support for [Omnipeak](https://github.com/JetBrains-Research/omnipeak) models.
+
 Version 2.0.6643
 ----------------
 
