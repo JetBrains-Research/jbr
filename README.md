@@ -44,7 +44,7 @@ Features
 * Full support of High DPI displays
 * Genomes configuration editor
 * Mouse mm39, Human hs1 (telomere-to-telomere), hs37-1kg, hs37d5 (decoy genomes)
-* Peak calling with BAM files rigth from the graphical user interface
+* Peak calling with BAM or BigWig files rigth from the graphical user interface
 
 Note: JBR Genome Browser supports models produced by the [SPAN](https://github.com/JetBrains-Research/span) version 2.0+.
 
