@@ -3,6 +3,14 @@ JBR Genome Browser Changelog
 
 Here you can see the full list of changes between each release.
 
+Version 2.0.6709
+----------------
+
+Released on August 8th, 2025
+
+* Improved server mode memory management
+* Bugfixes
+
 Version 2.0.6694
 ----------------
 
