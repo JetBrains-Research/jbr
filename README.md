@@ -73,7 +73,7 @@ Download a suitable build for your OS from the Downloads section.
   * For Intel-based Mac computers:<br>
   Download the `jbr-XXX.jar` Java archive file, ensure that you have Java 21+ installed.<br>
   Launch JBR Genome Browser with the command:<br>
-  `java -jar jbr-XXX.jar"`
+  `java --add-modules=jdk.incubator.vector -Xmx8G -jar jbr-XXX.jar"`
 
 
 * Linux:<br>
