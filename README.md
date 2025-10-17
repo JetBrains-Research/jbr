@@ -32,7 +32,7 @@ Features
 * Multiple panels support
 * Group scale mode for selected tracks
 * Integrated annotation of peaks and on-the-fly semi-supervised peak calling
-* Enhanced Omnipeak | SPAN models visualization
+* Enhanced [Omnipeak](https://github.com/JetBrains-Research/omnipeak) models visualization
 * Support for viewing multiple genomic locations simultaneously
 * Optimized for large sessions
 * Detailed track statistics and information on mouse hover
@@ -45,8 +45,6 @@ Features
 * Genomes configuration editor
 * Mouse mm39, Human hs1 (telomere-to-telomere), hs37-1kg, hs37d5 (decoy genomes)
 * Peak calling with BAM or BigWig files rigth from the graphical user interface
-
-Note: JBR Genome Browser supports models produced by the [SPAN](https://github.com/JetBrains-Research/span) version 2.0+.
 
 Downloads
 ---------
