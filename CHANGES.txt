@@ -3,6 +3,15 @@ JBR Genome Browser Changelog
 
 Here you can see the full list of changes between each release.
 
+Version 2.0.6745
+----------------
+
+Released on October 20th, 2025
+
+* Introduced Compact / Full mode settings - when titles and legends are shown over / above the track view
+* Fixed Peak calling within the JBR
+* Updated JVM runtime to 25 LTS
+
 Version 2.0.6709
 ----------------
 
