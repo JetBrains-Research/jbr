@@ -30,15 +30,17 @@ Features
 * * Simultaneous viewing of multiple genomic locations
 * * Detailed hover statistics and track information
 * **Integrated tools:**
+* * Peak calling within JBR Genome Browser
 * * Peak annotation and on-the-fly semi-supervised peak calling
 * * Enhanced Omnipeak model visualization
 * * BED overlap and Jaccard analysis
-* **Performance and usability:**
+* **Usability:**
+* * Compact view mode support
 * * Big fonts support for presentation mode
 * * Optimized for large sessions
 * * High DPI display support
+* * Screenshots (PNG/SVG), copy-paste buffer
 * * Headless screenshot generation (PNG/SVG) from the command line
-* * Genome configuration editor
 * **Data access and integration:**
 * * Load tracks directly from the ENCODE portal
 * * Supported genomes include Mouse (mm39), Human (hs1, hs37-1kg, hs37d5)
