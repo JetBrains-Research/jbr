@@ -3,17 +3,14 @@
 JBR Genome Browser
 ==================
 
-**JBR Genome Browser** is a fast and scalable general purpose genome browser with support of a
- [semi-supervised approach](http://artyomovlab.wustl.edu/aging/tools.html) to peak calling.
+**JBR Genome Browser**  is a fast, scalable, and versatile genome browser that integrates built-in peak calling through [Omnipeak](https://github.com/JetBrains-Research/omnipeak)*.<br>
 
-It supports classic genome browser functionality and provide readily accessible integrated peak annotation and peak
-calling capabilities. JBR Genome Browser allows researchers to upload tracks of Chip-seq data and perform on-the-fly
-annotation and peak calling with [Omnipeak](https://github.com/JetBrains-Research/omnipeak) (Previously [SPAN](https://github.com/JetBrains-Research/span)) algorithm for a given annotation,
-with the results of peak calling immediately visualized as BED files in the same session.
+It provides all the essential features of a classical genome browser while adding powerful tools for integrated peak annotation and [semi-supervised](http://artyomovlab.wustl.edu/aging/tools.html) peak calling. 
+Researchers can upload ChIP-seq data tracks and perform on-the-fly peak calling with immediate visualization of results in the same session.<br>
 
-It can serve not only as an efficient semi-supervised peak calling engine but also as a next-generation genome browser
-with enhanced functionality for viewing large files, viewing multiple locations simultaneously, and gathering track
-statistics.
+Beyond its peak calling capabilities, JBR Genome Browser serves as a next-generation genome visualization platform, 
+offering efficient handling of large datasets, simultaneous multi-location viewing, and detailed track statistics.
+
 
 **Open Access Paper:** https://doi.org/10.1093/bioinformatics/btab376
 
@@ -21,30 +18,33 @@ statistics.
 
 Features
 --------
-
-* Classical genome browser features to visualize various genome data formats
-* Supported data file formats: BED (including MACS2, SICER peaks), BigWig, Wig, BigBed, Tdf
-* Supported BAM/SAM/CRAM files including Bisulfite-Sequencing files visualization
-* GTF files support
-* Supported session formats: JBR *.yaml, IGV *.xml, UCSC *.txt session files
-* Remote URL BigWig/BigBed/BED files support
-* Select tracks by name or wildcard
-* Multiple panels support
-* Group scale mode for selected tracks
-* Integrated annotation of peaks and on-the-fly semi-supervised peak calling
-* Enhanced [Omnipeak](https://github.com/JetBrains-Research/omnipeak) models visualization
-* Support for viewing multiple genomic locations simultaneously
-* Optimized for large sessions
-* Detailed track statistics and information on mouse hover
-* BED tracks overlap / Jaccard analysis
-* Support for screenshots in PNG or SVG formats
-* Headless screenshots done from command line interface
-* Support for searching and loading tracks from ENCODE portal
-* Easily set up a server using publicly available Docker image
-* Full support of High DPI displays
-* Genomes configuration editor
-* Mouse mm39, Human hs1 (telomere-to-telomere), hs37-1kg, hs37d5 (decoy genomes)
-* Peak calling with BAM or BigWig files rigth from the graphical user interface
+* **Comprehensive genome browser functionality** for visualizing multiple genome data formats
+* **Supported file types:**
+* * BED (including MACS2, SICER peaks), BigWig, Wig, BigBed, TDF
+* * BAM/SAM/CRAM (including Bisulfite-Sequencing visualization)
+* * GTF files
+* **Session formats:** JBR (.yaml), IGV (.xml), UCSC (.txt)
+* **Remote file access:** BigWig, BigBed, and BED files via URL
+* **Flexible visualization:**
+* * Multiple panels and group-scale mode
+* * Simultaneous viewing of multiple genomic locations
+* * Detailed hover statistics and track information
+* **Integrated tools:**
+* * Peak annotation and on-the-fly semi-supervised peak calling
+* * Enhanced Omnipeak model visualization
+* * BED overlap and Jaccard analysis
+* **Performance and usability:**
+* * Big fonts support for presentation mode
+* * Optimized for large sessions
+* * High DPI display support
+* * Headless screenshot generation (PNG/SVG) from the command line
+* * Genome configuration editor
+* **Data access and integration:**
+* * Load tracks directly from the ENCODE portal
+* * Supported genomes include Mouse (mm39), Human (hs1, hs37-1kg, hs37d5)
+* * Peak calling from BAM or BigWig directly in the GUI
+* **Deployment:**
+* * Easily deployable server via a public Docker image
 
 Downloads
 ---------
@@ -56,11 +56,16 @@ Installation
 ------------
 Download a suitable build for your OS from the Downloads section.
 
-* Windows<br>
+* **Linux**<br>
+  Unpack the browser `jbr-XXX.tar.gz` file using the following command:<br>
+  `tar -xzf jbr-XXX.tar.gz`<br>
+  Launch `jbr.sh` from the `bin` subfolder.
+
+* **Windows**<br>
   Unpack the browser `jbr-XXX.zip` file.<br>
   Launch `jbr.exe`.
 
-* MacOS<br>
+* **MacOS**<br>
   * For M1+ Mac computers:<br>
   Download the `jbr-XXX.dmg` macOS Disk Image file<br>
   Mount it as another disk in your system<br>
@@ -74,18 +79,13 @@ Download a suitable build for your OS from the Downloads section.
   `java --add-modules=jdk.incubator.vector -Xmx8G -jar jbr-XXX.jar"`
 
 
-* Linux:<br>
-  Unpack the browser `jbr-XXX.tar.gz` file using the following command:<br>
-  `tar -xzf jbr-XXX.tar.gz`<br>
-  Launch `jbr.sh` from the `bin` subfolder.
-
-
 Web server mode
 ---------------
-JBR Genome Browser can be set up as a local web server which allows for an accessible way to share the results. This can
-be particularly useful when working with private datasets, which cannot be exported to public UCSC browser session, and
-should be accessible only within local network.<br>
-Example of web server mode can be seen at: [https://artyomovlab.wustl.edu/jbr/](https://artyomovlab.wustl.edu/jbr/).
+**JBR Genome Browser** can be launched as a **local web server**, providing a convenient way to share results with collaborators.<br>
+This mode is especially useful when working with private datasets that cannot be exported to public genome browsers like UCSC. 
+When deployed locally, the browser remains accessible only within the local network, ensuring data privacy and security.<br>
+An example of the web server mode in action can be found at:
+👉 [https://artyomovlab.wustl.edu/jbr/](https://artyomovlab.wustl.edu/jbr/).
 
 Build Docker image or use uploaded to docker.io.
 ```
@@ -113,3 +113,7 @@ Use this [Issues Tracker](https://github.com/JetBrains-Research/jbr/issues) to s
 Authors
 -------
 JetBrains Research BioLabs [homepage](https://research.jetbrains.org/groups/biolabs)
+
+Other
+-----
+\* Previously [SPAN](https://github.com/JetBrains-Research/span)
