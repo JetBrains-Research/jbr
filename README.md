@@ -1,4 +1,5 @@
 [![JetBrains Research](https://jb.gg/badges/research.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17804457.svg)](https://doi.org/10.5281/zenodo.17804457)
 
 JBR Genome Browser
 ==================
