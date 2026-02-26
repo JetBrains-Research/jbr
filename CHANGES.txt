@@ -3,6 +3,14 @@ JBR Genome Browser Changelog
 
 Here you can see the full list of changes between each release.
 
+Version 2.0.6781
+----------------
+
+Released on February 26, 2020
+
+* Bug fix release
+* Fixed the problem with missing genes in the track view due to caching problems
+
 Version 2.0.6765
 ----------------
 
