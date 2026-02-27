@@ -20,6 +20,7 @@ EXPOSE 5000
 # JBR in server mode
 ENTRYPOINT exec java -Xmx3G --add-modules=jdk.incubator.vector \
      -ea -XX:+UseCompressedOops \
+     -Djdk.attach.allowAttachSelf -Djol.magicFieldOffset=true \
      -XX:+HeapDumpOnOutOfMemoryError \
      -XX:ErrorFile=/jbr_logs/jbr_java_error%p.log \
      -XX:HeapDumpPath=/jbr_logs/jbr_java_error.hprof \
