@@ -79,7 +79,7 @@ Download a suitable build for your OS from the Downloads section.
   * For Intel-based Mac computers:<br>
   Download the `jbr-XXX.jar` Java archive file, ensure that you have Java 21+ installed.<br>
   Launch JBR Genome Browser with the command:<br>
-  `java --add-modules=jdk.incubator.vector -Xmx8G -jar jbr-XXX.jar"`
+  `java --add-modules=jdk.incubator.vector -Xmx8G -jar jbr-XXX.jar`
 
 
 Web server mode
@@ -92,14 +92,20 @@ An example of the web server mode in action can be found at:
 
 Build Docker image or use uploaded to docker.io.
 ```
-   docker build . -t biolabs/jbr --platform linux/amd64  
+  docker build . -t biolabs/jbr --platform linux/amd64  
 ```
 
 The user creates a number of preconfigured JRB sessions, place them in a separate `<sessions_folder>` on the local
 machine, and easily set up a server using publicly available Docker image `biolabs/jbr` with the command:
 
 ```
-  docker run --publish=5000:5000 --volume=<sessions_folder>:/jbr_sessions --volume=<logs_folder>:/jbr_logs  -d -t biolabs/jbr
+  mkdir -p <sessions_folder> <logs_folder> <jbr_genomes>
+  docker run 
+    --publish=5000:5000 \
+    --volume=<sessions_folder>:/jbr_sessions \
+    --volume=<logs_folder>:/jbr_logs \
+    --volume=<jbr_genomes>:/home/jbr/.jbr_browser/genomes \
+    -d -t biolabs/jbr
 ```
 
 Documentation
