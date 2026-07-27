@@ -3,6 +3,23 @@ JBR Genome Browser Changelog
 
 Here you can see the full list of changes between each release.
 
+Version 2.0.6853
+----------------
+
+Released on July 27, 2026
+
+* Omnipeak support reworked to use the downloadable omnipeak.jar file
+* Allow disabling separator between tracks via the "Show Separator" menu item
+* Allow configuring the number of recent sessions via sessions.properties (https://github.com/JetBrains-Research/jbr/issues/301)
+* Add View | Add separator menu item to insert a separator track with configurable color, title and height
+* Fix "Save as PNG/SVG": show file chooser dialog, reveal a saved file in the file manager, correct retina display scaling (https://github.com/JetBrains-Research/jbr/issues/303)
+* Allow BED-like tracks to use any column as the region label via the "Region Label Column" menu, applying changes immediately (https://github.com/JetBrains-Research/jbr/issues/295)
+* Fixed the too many open BED files problem (https://github.com/JetBrains-Research/jbr/issues/309)
+* When opening remote URL with an unknown extension, show a dialog to set in explictly (https://github.com/JetBrains-Research/jbr/issues/304)
+* Configure memory settings within the User Interface
+* Other bugfixes and minor improvements
+
+
 Version 2.0.6785
 ----------------
 
