@@ -1,4 +1,4 @@
-FROM eclipse-temurin:21-jre-alpine
+FROM eclipse-temurin:25.0.5_8-jre-alpine
 
 LABEL author="Oleg Shpynov"
 LABEL email="os@jetbrains.com"
