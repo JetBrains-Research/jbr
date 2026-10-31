@@ -3,6 +3,22 @@ JBR Genome Browser Changelog
 
 Here you can see the full list of changes between each release.
 
+Version 2.1
+-----------
+
+Released on October 30th, 2026
+
+Improved Omnipeak bridge configuration with a dedicated facade supporting Omnipeak versions 1.6-1.7
+Support separator tracks in headless screenshots (PNG and SVG)
+Support disabling of between tracks separators
+Cosmetic improvements to track label: hide when track height is too small
+Cosmetic improvements to track legends: sort legend items and hide when track height is too small
+Fix strings rendering in SVG generation
+Fix disabled menu on switching to JBR
+Fix loading IGV session where track height is not set
+Updated bundled Amazon Corretto JDK runtime to 25.0.5.0.10 (including fix for eMudhra Intermediate CA Compromise)
+Other bugfixes and minor improvements
+
 Version 2.0.6853
 ----------------
 
